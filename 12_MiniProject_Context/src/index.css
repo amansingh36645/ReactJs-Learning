@@ -1,0 +1,52 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: darkolivegreen;
+}
+
+.logo{
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+
+}
+
+.navbar-bar{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.card{
+  border: 2px solid grey;
+  background-color: blanchedalmond;
+  padding: 10px;
+}
+
+.login{
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.login input{
+  padding: 10px;
+  border: none;
+  background-color: bisque;
+  border-radius: 20px;
+  border: 2px solid grey;
+}
+
+.login button{
+  background-color: darkgreen;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  margin-left: 10px;
+  color: white;
+}
